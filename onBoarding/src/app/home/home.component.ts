@@ -13,11 +13,11 @@ import { iStep } from '../istep.interface';
   styleUrl: './home.component.css'
 })
 
-export class HomeComponent  {
+export class HomeComponent implements OnInit  {
   frases:iStep[] =[];
-  constructor(private stepService: StepService) {
-    this.frases= this.stepService.getFrases()
-  }
+  constructor(private stepService: StepService) {}
   
-
+  ngOnInit(): void {
+    this.frases= this.stepService.getFrases();
+  }
 }
