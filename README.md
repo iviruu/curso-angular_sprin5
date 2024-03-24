@@ -40,7 +40,7 @@ git clone https://github.com/iviruu/curso-angular_sprin5.git
 
 2. Ingresa al directorio del proyecto:
 ```bash
-cd onBoarding
+cd curso-angular_sprin5\onBoarding
 ```
 
 4. Instala las dependencias:
