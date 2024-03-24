@@ -1,8 +1,21 @@
-<div>
-    @for (frase of frases; track $index) {
-        <img src="{{frase.img}}" alt="imagen">
-        <h3>{{frase.title}} </h3>
-        <p>{{frase.descripcion}} </p>
-        
-    }
+<div class="escena">
+    <div class="pagina" [ngClass]="estadoAnimacion">
+        @if(frases.length > 0){
+            <img [src]="frases[currentStep].img" [style.background-color]="frases[currentStep].bgcolor" alt="imagen">
+            <h3>{{frases[currentStep].title}} </h3>
+            <p>{{frases[currentStep].descripcion}} </p>
+        }
+        <div class="final">
+            <div class="puntos">
+                <span class="punto" *ngFor="let frase of frases; let i = index" [ngClass]="{'activo': currentStep === i}">
+                </span>
+            </div>
+            <div class="botones">
+                <button class="boton1" (click)="anteriorFrase()" [disabled]="currentStep === 0"><<<</button>
+                <button class="boton2" (click)="siguienteFrase()" [disabled]="currentStep === frases.length - 1">>>></button>
+            </div>
+            
+        </div>
+
+    </div>
 </div>
