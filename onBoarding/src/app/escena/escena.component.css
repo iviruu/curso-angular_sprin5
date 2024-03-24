@@ -83,7 +83,7 @@ button:disabled{
 @keyframes myAnim {
 	0% {
 		opacity: 0;
-		transform: translateX(-250px);
+		transform: translateX(250px);
 	}
 
 	100% {
