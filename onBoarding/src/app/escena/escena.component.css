@@ -22,10 +22,10 @@ img{
     text-align: start;
     flex-direction: column;
     border-radius: 10%;
-    margin: 100px;
+    margin: 20px;
     background-color: white;
-    width: 400px;
-    height: 700px;
+    width: 80vw;
+    height: auto;
 }
 h3{
     margin-left: 20px;
@@ -61,6 +61,7 @@ button:disabled{
 }
 .final{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     margin: 15px;
@@ -91,7 +92,6 @@ button:disabled{
 	}
 }
 
-
 @keyframes myAnim2 {
 	0% {
 		opacity: 0;
@@ -103,3 +103,36 @@ button:disabled{
 		transform: translateX(0);
 	}
 }
+@media (min-width: 375px){
+    .final{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px;
+        margin-top: 50px;
+    }
+}
+@media(min-width: 550px){
+    .pagina{
+        width: 60vw;
+        margin: 100px;
+    }
+}
+@media (min-width: 900px){
+    .pagina{
+        width: 40vw;
+    }
+}
+@media (min-width: 1200px){
+    .pagina{
+        width: 25vw;
+    }
+}
+@media (min-width: 1500px){
+    .pagina{
+        width: 20vw;
+    }
+}
+
+
