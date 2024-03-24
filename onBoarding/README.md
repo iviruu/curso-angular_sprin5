@@ -1,27 +1,62 @@
-# OnBoarding
+# Star Wars
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+## Descripción 📄
 
-## Development server
+Ejercicio para mejorar habilidades con Angular 17
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Demo 🚀
 
-## Code scaffolding
+Puedes ver la demostración de la aplicación en (https://github.com/iviruu/curso-angular_sprin5.git).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Características ✨
 
-## Build
+- Carrusel de frases con animaciones al cambiar de frase.
+- Navegación entre frases con botones "Anterior" y "Siguiente".
+- Animaciones CSS personalizadas para transiciones suaves.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Tecnologías Utilizadas 💻
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- TypeScript
+- HTML5
+- CSS 
+- [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
-## Running end-to-end tests
+## Requisitos 📋
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js y npm instalados en tu sistema. Puedes descargarlos desde [nodejs.org](https://nodejs.org/).
+- Angular CLI instalado globalmente. Puedes instalarlo con el siguiente comando:
 
-## Further help
+```bash
+npm install -g @angular/cli
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Instalación 🛠️
+
+1. Clona el repositorio:
+```bash
+git clone https://github.com/iviruu/curso-angular_sprin5.git
+```
+
+2. Ingresa al directorio del proyecto:
+```bash
+cd onBoarding
+```
+
+4. Instala las dependencias:
+```bash
+npm install
+```
+
+
+## Ejecución ▶️
+Ejecuta la aplicación con el siguiente comando:
+```bash
+ng s -o
+```
+
+
+
+
+
+
