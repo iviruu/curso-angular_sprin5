@@ -7,7 +7,7 @@
         }
         <div class="final">
             <div class="puntos">
-                <span class="punto" *ngFor="let frase of frases; let i = index" [ngClass]="{'activo': currentStep === i}">
+                <span class="punto" *ngFor="let frase of frases; let i = index" (click)="mover(i)" [ngClass]="{'activo': currentStep === i}">
                 </span>
             </div>
             <div class="botones">

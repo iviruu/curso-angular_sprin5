@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { EscenaComponent } from '../escena/escena.component';
 import { StepService } from '../step.service';
-import { iStep } from '../istep.interface';
+import { iStep } from '../interface/istep.interface';
 
 
 

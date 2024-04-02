@@ -1,6 +1,6 @@
 
 import { Component, Input } from '@angular/core';
-import { iStep } from '../istep.interface';
+import { iStep } from '../interface/istep.interface';
 import { NgClass } from '@angular/common';
 import { NgFor } from '@angular/common';
 
@@ -31,6 +31,9 @@ export class EscenaComponent {
       setTimeout(()=> this.estadoAnimacion = '',800);
     }
   }
+mover(index:number){
+  this.currentStep = index
+}
 
 
 }
